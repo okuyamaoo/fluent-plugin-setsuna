@@ -1,6 +1,6 @@
 # Fluent::Plugin::Setsuna
 
-Fluent outpu plugin for Setsuna(CEP)
+Fluentd outpu plugin for Setsuna(CEP)
 utpu plugin for Setsuna(CEP)
 see Setsuna 
 https://github.com/okuyamaoo/setsuna
