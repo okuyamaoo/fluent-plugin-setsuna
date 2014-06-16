@@ -20,14 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-1.Start Setsuna 
+1.Start Setsuna :
 Startup http setsuna server
  $wget "https://github.com/okuyamaoo/setsuna/archive/v0.0.3.zip"
  $unzip setsuna-{version}.zip
  $cd setsuna-{version}
  $java -classpath ./setsuna.jar:./*:./lib/jetty/* setsuna.core.SetsunaMain -httpserver true
 
-2.Setting td-agent.conf
+2.Setting td-agent.conf:
 1.Add config
 
 <match setsuna.**>
@@ -38,7 +38,7 @@ Startup http setsuna server
 </match>
 
 3.Start td-agent
-i
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/fluent-plugin-setsuna/fork )
